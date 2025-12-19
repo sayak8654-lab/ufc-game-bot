@@ -591,4 +591,5 @@ client.on("interactionCreate", async (interaction) => {
 });
 
 // ----------------- LOGIN -----------------
-client.login("MTQ1MTI2MzY5NDAzNzE4ODcxMQ.GYNc68.c94tUSHqg1hjrVWHSSKEgasjkeUpGyTyLmww7I");
+client.login(process.env.BOT_TOKEN);
+
